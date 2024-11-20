@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corso di Public Speaking - Prova Gratuita</title>
+    <link rel="stylesheet" href="style.css"> <!-- Inserisci il tuo file CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .intro {
+            text-align: center;
+            padding: 40px;
+        }
+        .pricing {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pricing p {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+        }
+        .feature {
+            width: 30%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .testimonial {
+            background-color: #fff;
+            padding: 20px;
+            margin: 40px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            margin: 40px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Corso di Public Speaking</h1>
+        <p>Impara a parlare in pubblico con i nostri esperti madrelingua</p>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Unisciti al nostro corso di Public Speaking</h2>
+            <p>Impara a comunicare con sicurezza, grazie a lezioni online, guide scaricabili e un supporto diretto con i nostri insegnanti madrelingua.</p>
+        </section>
+
+        <section class="pricing">
+            <p>Abbonamento: €14,90 al mese</p>
+            <p>Prova gratuita di 1 mese!</p>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>Lezioni Online</h3>
+                <p>Lezioni interattive che puoi seguire comodamente da casa.</p>
+            </div>
+            <div class="feature">
+                <h3>Guide Scaricabili</h3>
+                <p>Materiali esclusivi per migliorare il tuo public speaking.</p>
+            </div>
+            <div class="feature">
+                <h3>Supporto Diretto</h3>
+                <p>Chat con i docenti madrelingua per ogni tua domanda.</p>
+            </div>
+        </section>
+
+        <section class="testimonial">
+            <h2>Cosa dicono i nostri studenti</h2>
+            <p>"Questo corso ha trasformato il mio modo di comunicare in pubblico! Gli insegnanti sono davvero professionali e la prova gratuita mi ha convinto subito!" - Maria Rossi</p>
+            <p>"Consigliato a chiunque voglia migliorare la propria capacità di parlare in pubblico!" - Luca Bianchi</p>
+        </section>
+
+        <section class="form-container">
+            <h2>Iscriviti ora</h2>
+            <form action="https://app.getresponse.com/add_subscriber.html" method="POST">
+                <input type="hidden" name="campaign_token" value="xxxx"> <!-- Inserisci il token della lista -->
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="text" name="surname" placeholder="Cognome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <button type="submit">Iscriviti</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
